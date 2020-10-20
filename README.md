@@ -27,10 +27,10 @@ To run `cifar.py` you need
 python cifar.py [--baseline]
 ```
 
-|                       | ResNet20         | SE-ResNet20 (reduction 4 or 8)    |ASPNet20        |ASPNet32        |
-|:-------------         | :-------------   | :-------------                    |:-------------  |:-------------  |
-|test accuracy(cifar10) |  92.3%           | 92.6%                             | 93.8%          | 94.6%          |
-|test accuracy(cifar100)|  68.2%           | 69.1%                             | 73.1%          | 74.2%          |
+|                       | ResNet20         | SE-ResNet20    | ASPNet20        | ASPNet32        |
+|:-------------         | :-------------   | :------------- | :-------------  | :-------------  |
+|test accuracy(cifar10) |  92.3%           | 92.6%          | 93.8%           | 94.6%           |
+|test accuracy(cifar100)|  68.2%           | 69.1%          | 73.1%           | 74.2%           |
 
 ### ASPNet18/34 ImageNet
 
@@ -38,3 +38,6 @@ python cifar.py [--baseline]
 |                        | SE-ResNet18      | ASPNet18       | SE-ResNet32     | ASPNet32       |
 |:-------------          | :-------------   | :------------- | :-------------  | :------------- |
 |test accuracy(top1)     | 70.59%           | 72.16% (**)    | 73.69%          | 74.83% (**)    |
+
+### ASPNet18/32 ImageNet
+*The code will be published after the paper was accepted * .
