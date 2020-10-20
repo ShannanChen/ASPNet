@@ -8,8 +8,8 @@ Now ASPNet (20, 34, 56) are implemented and the code is modified based on [SENet
 
 ## Pre-requirements
 
-* Python>=3.6
-* PyTorch>=1.0
+* Python>=3.7
+* PyTorch>=1.1
 * torchvision>=0.4
 
 ### For training
@@ -17,7 +17,6 @@ Now ASPNet (20, 34, 56) are implemented and the code is modified based on [SENet
 To run `cifar.py` you need
 
 * `pip install git+https://github.com/moskomule/homura`
-* `pip install miniargs`
 
 ## Results
 
