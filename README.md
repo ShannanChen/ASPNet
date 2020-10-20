@@ -29,7 +29,7 @@ python cifar.py [--baseline]
 
 |                       | ResNet20         | SE-ResNet20    | ASPNet20        | ASPNet32        |
 |:-------------         | :-------------   | :------------- | :-------------  | :-------------  |
-|test accuracy(cifar10) |  92.3%           | 92.6%          | 93.8%           | 94.6%           |
+|test accuracy(cifar10) |  92.3%           | 92.6%          | 93.8% (**)      | 94.6% (**)      |
 |test accuracy(cifar100)|  68.2%           | 69.1%          | 73.1% (**)      | 74.2% (**)      |
 
 ### ASPNet18/34 ImageNet
