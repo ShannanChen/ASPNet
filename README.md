@@ -39,5 +39,4 @@ python cifar.py [--baseline]
 |:-------------          | :-------------   | :------------- | :-------------  | :------------- |
 |test accuracy(top1)     | 70.59%           | 72.16% (**)    | 73.69%          | 74.83% (**)    |
 
-### ASPNet18/32 ImageNet
 *The code will be published after the paper was accepted * .
