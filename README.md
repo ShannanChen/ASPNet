@@ -21,7 +21,7 @@ To run `cifar.py` you need
 
 ## Result
 
-### ASPNet20/34 Cifar10/100
+### ASPNet20/32 Cifar10/100
 
 ```
 python cifar.py [--baseline]
