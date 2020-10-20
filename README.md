@@ -26,18 +26,18 @@ To run `cifar.py` you need
 python cifar.py [--baseline]
 ```
 
-|                       | ResNet20         | SE-ResNet20    | ASPNet20        | ResNet32        | SE-ResNet32     | ASPNet32        |
-|:-------------         | :-------------   | :------------- | :-------------  | :-------------  | :-------------  | :-------------  |
-|test accuracy(cifar10) |  92.3%           | 92.6%          | 93.8%           | 93.2%           | 93.3%           | 94.6%           |
-|test accuracy(cifar100)|  68.2%           | 69.1%          | 73.1%           | 69.7%           | 71.6%           | 74.2%           |
+|                        | ResNet20         | SENet20        | ASPNet20        | ResNet32        | SENet32         | ASPNet32        |
+|:-------------          | :-------------   | :------------- | :-------------  | :-------------  | :-------------  | :-------------  |
+|test accuracy (cifar10) |  92.3%           | 92.6%          | 93.8%           | 93.2%           | 93.3%           | 94.6%           |
+|test accuracy (cifar100)|  68.2%           | 69.1%          | 73.1%           | 69.7%           | 71.6%           | 74.2%           |
 
 ###  ImageNet
 
 
-|                        | SE-ResNet18      | ASPNet18       | SE-ResNet34     | ASPNet34       |
-|:-------------          | :-------------   | :------------- | :-------------  | :------------- |
-|test accuracy(top1)     | 70.59%           | 72.16%         | 73.69%          | 74.83%         |
+|                         | SENet18          | ASPNet18       | SENet34         | ASPNet34       |
+|:-------------           | :-------------   | :------------- | :-------------  | :------------- |
+|test accuracy (top1)     | 70.59%           | 72.16%         | 73.69%          | 74.83%         |
 
 ## Contact
 
-If you have any questions or suggestions, please contact me(Shannan_Chen@163.com).
+If you have any questions or suggestions, please contact me (Shannan_Chen@163.com).
